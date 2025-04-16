@@ -18,7 +18,7 @@ public class Misiones : MonoBehaviour
     public void CompletarMision(string tipoMision, string objetivo)
     {
         {
-            if (misionActiva = true)
+            if (misionActiva == true)
             {
                 misionCompletada = true;
                 misionActiva = false;
